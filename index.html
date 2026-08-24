@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lisboa Barbería | Cortes y Barbas de Autor</title>
+  <meta name="description" content="Lisboa Barbería: cortes clásicos y modernos, arreglo de barba y atención de primer nivel. Reservá tu turno online.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#inicio" class="logo">
+        <span class="logo-mark">L</span> LISBOA
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#galeria">Galería</a>
+        <a href="#equipo">Equipo</a>
+        <a href="#contacto" class="btn btn-outline btn-sm">Reservar turno</a>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="inicio">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <p class="hero-eyebrow reveal">Barbería tradicional desde 1998</p>
+      <h1 class="reveal delay-1">El arte del corte,<br><em>estilo Lisboa.</em></h1>
+      <p class="hero-sub reveal delay-2">
+        Cortes clásicos y modernos, barba perfilada al navaja y una experiencia pensada para vos.
+      </p>
+      <div class="hero-actions reveal delay-3">
+        <a href="#reserva" class="btn btn-gold">Reservar turno</a>
+        <a href="#servicios" class="btn btn-ghost">Ver servicios</a>
+      </div>
+      <div class="hero-stats reveal delay-4">
+        <div><strong data-count="25">0</strong><span>Años de oficio</span></div>
+        <div><strong data-count="12000">0</strong><span>Cortes realizados</span></div>
+        <div><strong data-count="4.9" data-decimal="1">0</strong><span>Rating clientes</span></div>
+      </div>
+    </div>
+    <a href="#servicios" class="scroll-down" aria-label="Bajar">&#9662;</a>
+  </section>
+
+  <!-- ===== SERVICIOS ===== -->
+  <section class="section" id="servicios">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-tag">Nuestros servicios</span>
+        <h2>Precios claros, resultados impecables</h2>
+      </div>
+
+      <div class="services-grid">
+        <article class="service-card reveal">
+          <div class="service-icon">✂️</div>
+          <h3>Corte Clásico</h3>
+          <p>Tijera y máquina según tu estilo. Incluye lavado y peinado final.</p>
+          <div class="service-foot"><span class="price">$8.500</span><span class="time">45 min</span></div>
+        </article>
+
+        <article class="service-card reveal delay-1">
+          <div class="service-icon">🪒</div>
+          <h3>Barba &amp; Navaja</h3>
+          <p>Perfilado con toalla caliente, aceites y bálsamo hidratante.</p>
+          <div class="service-foot"><span class="price">$6.000</span><span class="time">30 min</span></div>
+        </article>
+
+        <article class="service-card reveal delay-2">
+          <div class="service-icon">👑</div>
+          <h3>Combo Premium</h3>
+          <p>Corte + barba + masaje capilar. La experiencia completa Lisboa.</p>
+          <div class="service-foot"><span class="price">$13.000</span><span class="time">75 min</span></div>
+        </article>
+
+        <article class="service-card reveal">
+          <div class="service-icon">👦</div>
+          <h3>Corte Junior</h3>
+          <p>Especial para menores de 12 años, con paciencia y buena onda.</p>
+          <div class="service-foot"><span class="price">$6.500</span><span class="time">35 min</span></div>
+        </article>
+
+        <article class="service-card reveal delay-1">
+          <div class="service-icon">🎨</div>
+          <h3>Color &amp; Camuflaje</h3>
+          <p>Cobertura de canas o cambios de color con productos profesionales.</p>
+          <div class="service-foot"><span class="price">$9.000</span><span class="time">50 min</span></div>
+        </article>
+
+        <article class="service-card reveal delay-2">
+          <div class="service-icon">💍</div>
+          <h3>Novio &amp; Eventos</h3>
+          <p>Preparación completa para tu día. Consultá por grupos.</p>
+          <div class="service-foot"><span class="price">A consultar</span><span class="time">90 min</span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== NOSOTROS ===== -->
+  <section class="about section-dark" id="nosotros">
+    <div class="container about-grid">
+      <div class="about-media reveal">
+        <div class="tile-pattern"></div>
+        <div class="about-badge">Desde<br><strong>1998</strong></div>
+      </div>
+      <div class="about-text">
+        <span class="section-tag reveal">Sobre nosotros</span>
+        <h2 class="reveal delay-1">Una barbería con alma portuguesa</h2>
+        <p class="reveal delay-2">
+          Nacimos en un local chico del barrio, con una silla antigua traída de Oporto
+          y la idea de recuperar el ritual de la buena barbería. Hoy somos tres barberos,
+          la misma pasión y miles de clientes que se vuelven.
+        </p>
+        <ul class="about-list">
+          <li class="reveal delay-2"><strong>Turnos puntuales.</strong> Valoramos tu tiempo.</li>
+          <li class="reveal delay-3"><strong>Productos profesionales.</strong> Cuidamos tu pelo y tu piel.</li>
+          <li class="reveal delay-3"><strong>Ambiente de barrio.</strong> Café, charla y buena música.</li>
+        </ul>
+        <a href="#reserva" class="btn btn-gold reveal delay-4">Quiero mi turno</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALERÍA ===== -->
+  <section class="section" id="galeria">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-tag">Galería</span>
+        <h2>Nuestro trabajo habla solo</h2>
+      </div>
+
+      <div class="gallery-grid">
+        <figure class="g-item reveal grad-1" data-caption="Fade medio + textura">
+          <figcaption>Fade medio + textura</figcaption>
+        </figure>
+        <figure class="g-item reveal delay-1 grad-2" data-caption="Barba perfilada al navaja">
+          <figcaption>Barba perfilada al navaja</figcaption>
+        </figure>
+        <figure class="g-item reveal delay-2 grad-3" data-caption="Pompadour clásico">
+          <figcaption>Pompadour clásico</figcaption>
+        </figure>
+        <figure class="g-item reveal grad-4" data-caption="Undercut moderno">
+          <figcaption>Undercut moderno</figcaption>
+        </figure>
+        <figure class="g-item reveal delay-1 grad-5" data-caption="Cropped + flequillo">
+          <figcaption>Cropped + flequillo</figcaption>
+        </figure>
+        <figure class="g-item reveal delay-2 grad-6" data-caption="Buzz cut limpio">
+          <figcaption>Buzz cut limpio</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EQUIPO ===== -->
+  <section class="team section-dark section" id="equipo">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-tag">El equipo</span>
+        <h2>Manos que hacen estilo</h2>
+      </div>
+
+      <div class="team-grid">
+        <article class="member reveal">
+          <div class="avatar av-1">JM</div>
+          <h3>Juan Manuel</h3>
+          <p class="role">Master Barber · Fundador</p>
+          <p class="bio">25 años detrás de la silla. Especialista en cortes clásicos.</p>
+        </article>
+        <article class="member reveal delay-1">
+          <div class="avatar av-2">LT</div>
+          <h3>Lucía Torres</h3>
+          <p class="role">Barber · Colorista</p>
+          <p class="bio">Reina del fade y del camuflaje de canas sin dejar rastro.</p>
+        </article>
+        <article class="member reveal delay-2">
+          <div class="avatar av-3">DR</div>
+          <h3>Diego Ramos</h3>
+          <p class="role">Barber · Barba Specialist</p>
+          <p class="bio">Navaja templada y toalla caliente. Su combo no tiene vuelta atrás.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIOS ===== -->
+  <section class="section testimonials" id="testimonios">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-tag">Testimonios</span>
+        <h2>Lo que dicen nuestros clientes</h2>
+      </div>
+
+      <div class="slider" id="testiSlider">
+        <div class="slides" id="testiSlides">
+          <blockquote class="slide active">
+            <p>"Hace 6 años que no me corto el pelo en otro lado. Puntualidad y calidad siempre."</p>
+            <footer>— Martín G.</footer>
+          </blockquote>
+          <blockquote class="slide">
+            <p>"Me arreglaron la barba antes de mi casamiento y quedé impecable. Groso Dieguito."</p>
+            <footer>— Sebastián R.</footer>
+          </blockquote>
+          <blockquote class="slide">
+            <p>"Llevé a mis hijos y salieron felices. Atención de diez y el lugar es hermoso."</p>
+            <footer>— Carla M.</footer>
+          </blockquote>
+        </div>
+        <div class="slider-dots" id="testiDots"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== RESERVA / CONTACTO ===== -->
+  <section class="booking section-dark" id="reserva">
+    <div class="container booking-grid">
+      <div class="booking-info">
+        <span class="section-tag reveal">Reservá tu turno</span>
+        <h2 class="reveal delay-1">Listo para el cambio?</h2>
+        <p class="reveal delay-2">Completá el formulario y te confirmamos por WhatsApp en el momento.</p>
+
+        <ul class="contact-list reveal delay-3">
+          <li><span>📍</span> Av. Siempre Viva 742, CABA</li>
+          <li><span>📞</span> +54 11 5555-1234</li>
+          <li><span>✉️</span> hola@lisboabarberia.com.ar</li>
+          <li><span>🕒</span> Lun a Sáb · 9 a 20 h</li>
+        </ul>
+      </div>
+
+      <form class="booking-form reveal delay-2" id="bookingForm" novalidate>
+        <div class="form-row">
+          <div class="field">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+            <small class="error-msg"></small>
+          </div>
+          <div class="field">
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" name="telefono" placeholder="11 5555 0000" required>
+            <small class="error-msg"></small>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="field">
+            <label for="servicio">Servicio</label>
+            <select id="servicio" name="servicio" required>
+              <option value="" disabled selected>Elegí un servicio</option>
+              <option>Corte Clásico — $8.500</option>
+              <option>Barba &amp; Navaja — $6.000</option>
+              <option>Combo Premium — $13.000</option>
+              <option>Corte Junior — $6.500</option>
+              <option>Color &amp; Camuflaje — $9.000</option>
+              <option>Novio &amp; Eventos — A consultar</option>
+            </select>
+            <small class="error-msg"></small>
+          </div>
+          <div class="field">
+            <label for="barbero">Barbero (opcional)</label>
+            <select id="barbero" name="barbero">
+              <option value="" selected>Sin preferencia</option>
+              <option>Juan Manuel</option>
+              <option>Lucía Torres</option>
+              <option>Diego Ramos</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="field">
+            <label for="fecha">Fecha</label>
+            <input type="date" id="fecha" name="fecha" required>
+            <small class="error-msg"></small>
+          </div>
+          <div class="field">
+            <label for="hora">Hora</label>
+            <select id="hora" name="hora" required>
+              <option value="" disabled selected>Elegí horario</option>
+            </select>
+            <small class="error-msg"></small>
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn-gold btn-block" id="submitBtn">Confirmar reserva</button>
+        <p class="form-success" id="formSuccess" hidden>¡Listo! Recibimos tu pedido de turno 🎉 Te confirmamos por WhatsApp.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#inicio" class="logo"><span class="logo-mark">L</span> LISBOA</a>
+      <p class="footer-copy">© <span id="year"></span> Lisboa Barbería · Hecho con ☕ y tijeras.</p>
+      <div class="socials">
+        <a href="#" aria-label="Instagram">IG</a>
+        <a href="#" aria-label="Facebook">FB</a>
+        <a href="#" aria-label="TikTok">TK</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
